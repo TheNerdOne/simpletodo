@@ -1,20 +1,42 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link, withRouter } from "react-router-dom";
 
-const Nav = (props) => {
+const Nav = () => {
   return (
     <div>
       <div className="m-3">
         <ul className="nav nav-pills justify-content-center">
           <li className="nav-item">
-            <Link to="/simpletodo" className="nav-link active">
+            {/* <Link
+              to="/simpletodo"
+              className={
+                props.location.pathname === "/simpletodo"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
               کارهای روزانه
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-link">
+            <Link
+              to="/about"
+              className={
+                props.location.pathname === "/about"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
               درباره سازنده
-            </Link>
+            </Link> */}
+            <NavLink to="/simpletodo" className="nav-link" exact>
+              کارهای روزانه
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/about" className="nav-link">
+              درباره سازنده
+            </NavLink>
           </li>
         </ul>
       </div>
@@ -22,4 +44,4 @@ const Nav = (props) => {
   );
 };
 
-export default Nav;
+export default withRouter(Nav);
