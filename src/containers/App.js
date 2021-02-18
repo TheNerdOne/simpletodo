@@ -14,11 +14,11 @@ class App extends Component {
           <div className="col-md-8">
             <div className="card-hover-shadow-2x mb-3 card p-card">
               <Switch>
-                <Route exact path="/simpletodo" component={Todos} />
                 <Route
                   path="/about"
                   render={() => <About developerName="poooriiich" />}
                 />
+                <Route exact path="/simpletodo" component={Todos} />
               </Switch>
             </div>
           </div>
