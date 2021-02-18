@@ -7,7 +7,7 @@ const Nav = (props) => {
       <div className="m-3">
         <ul className="nav nav-pills justify-content-center">
           <li className="nav-item">
-            <Link to="/" className="nav-link active">
+            <Link to="/simpletodo" className="nav-link active">
               کارهای روزانه
             </Link>
           </li>
