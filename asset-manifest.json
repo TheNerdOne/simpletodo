@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/simpletodo/static/js/main.2e4947a3.chunk.js",
-    "main.js.map": "/simpletodo/static/js/main.2e4947a3.chunk.js.map",
+    "main.js": "/simpletodo/static/js/main.fe08e957.chunk.js",
+    "main.js.map": "/simpletodo/static/js/main.fe08e957.chunk.js.map",
     "runtime-main.js": "/simpletodo/static/js/runtime-main.0efe2b90.js",
     "runtime-main.js.map": "/simpletodo/static/js/runtime-main.0efe2b90.js.map",
     "static/js/2.3d8f6d58.chunk.js": "/simpletodo/static/js/2.3d8f6d58.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.0efe2b90.js",
     "static/js/2.3d8f6d58.chunk.js",
-    "static/js/main.2e4947a3.chunk.js"
+    "static/js/main.fe08e957.chunk.js"
   ]
 }
